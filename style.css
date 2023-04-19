@@ -12,7 +12,7 @@ html, body {
     background-color: black;
 }
 body {
-    background: url(../imagens/fundo-madeira.jpg)no-repeat top center;
+    background: url(imagens/fundo.png.jpeg)no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -43,7 +43,7 @@ iframe#screen {
 
 }
 section#network-social {
-    text-align: right;
+    text-align: justify;
 }
 section#network-social img {
     width: 50px;
