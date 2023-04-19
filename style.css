@@ -11,11 +11,16 @@ html, body {
     width: 100vw;
     background-color: black;
 }
+body {
+    background: url(../imagens/fundo-madeira.jpg)no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 main {
     height: 100vh;
     position: relative;
-    background-color: green;
+    
 }
 
 section#moblie {
@@ -23,9 +28,33 @@ section#moblie {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 500px;
-    width: 500px;
+    height: 627px;
+    width: 311px;
     background-color: blue;
     background: url('imagens/frame-iphone.png') no-repeat;
 
+}
+iframe#screen {
+    position: relative;
+    top: 80px;
+    left:22px;
+    width:269px;
+    height: 471px;
+
+}
+section#network-social {
+    text-align: right;
+}
+section#network-social img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0.400);
+    box-sizing: border-box;
+}
+section#network-social img:hover {
+    border: 2px solid rgb(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rga(0, 0, 0.625);
+    transition: transform 0.3s, border 1s; 
 }
